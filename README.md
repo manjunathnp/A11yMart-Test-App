@@ -38,6 +38,33 @@ The app includes realistic flows such as product browsing, forms, registration a
 
 Everything runs from a **single index.html file**. No npm install, backend, database, or build step is required.
 
+## Screenshots
+
+### Issue Mode and Accessible Mode
+
+<table>
+  <tr>
+    <td width="50%"><strong>Issue Mode</strong></td>
+    <td width="50%"><strong>Accessible Mode</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/a11ymart-issue-mode.png" alt="A11yMart storefront in Issue Mode with the mode switch, hero area, learning-library panel, and featured books"></td>
+    <td><img src="screenshots/a11ymart-accessible-mode.png" alt="A11yMart storefront in Accessible Mode with the accessible mode selected and the accessibility-first learning panel"></td>
+  </tr>
+</table>
+
+Issue Mode deliberately includes accessibility defects for practice. Accessible Mode presents the corrected experience for comparison.
+
+### Practice Lab
+
+![A11yMart Practice Lab in Issue Mode showing accessibility challenges for form labels, link purpose, icon buttons, and error communication](screenshots/a11ymart-practice-lab.png)
+
+### A11y Reference Guide
+
+![A11yMart A11y Reference Guide showing the guide navigation, accessibility testing introduction, examples, and learning cards](screenshots/a11ymart-a11y-guide.png)
+
+These screenshots were captured from the current standalone app at a 1440 × 1000 desktop viewport.
+
 ## Main Features
 
 - Realistic bookstore storefront and end-to-end shopping flow.
@@ -160,8 +187,15 @@ The reference guide is designed as a learning resource and remains accessible in
 ## Project Files
 
     A11yMart-Test-App/
-    ├── index.html    # Complete A11yMart application
-    └── README.md     # Usage and project documentation
+    ├── index.html                         # Complete A11yMart application
+    ├── README.md                          # Usage and project documentation
+    ├── logo/
+    │   └── a11ymart-logo.webp             # README logo
+    └── screenshots/
+        ├── a11ymart-issue-mode.png
+        ├── a11ymart-accessible-mode.png
+        ├── a11ymart-practice-lab.png
+        └── a11ymart-a11y-guide.png
 
 ## Developed By
 
