@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo/a11ymart-logo.webp" width="180" alt="A11yMart accessibility practice app logo">
+
 # A11yMart
 
 **A Practice Storefront for Accessibility Testing**
